@@ -206,7 +206,7 @@ func ParseTorrent(reader *bufio.Reader) Torrent {
 
 func main() {
 	// Open the torrent file.
-	fp, err := os.Open("ubuntu-24.04-desktop-amd64.iso.torrent")
+	fp, err := os.Open("test/ubuntu-24.04-desktop-amd64.iso.torrent")
 	if err != nil {
 		panic(err)
 	}
